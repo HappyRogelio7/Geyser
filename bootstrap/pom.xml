@@ -12,7 +12,7 @@
     <packaging>pom</packaging>
 
     <repositories>
-        <repository>
+        <!--repository>
             <id>spigot-public</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/public/</url>
         </repository>
@@ -27,7 +27,7 @@
         <repository>
             <id>velocity-repo</id>
             <url>https://repo.velocitypowered.com/snapshots/</url>
-        </repository>
+        </repository-->
     </repositories>
 
     <dependencies>
@@ -41,9 +41,5 @@
 
     <modules>
         <module>bungeecord</module>
-        <module>spigot</module>
-        <module>sponge</module>
-        <module>standalone</module>
-        <module>velocity</module>
     </modules>
 </project>
